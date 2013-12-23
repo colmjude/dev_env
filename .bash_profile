@@ -12,3 +12,11 @@ mou(){
 chrome() {
     open -a "Google Chrome" "$1"
 }
+
+# create basic project (tsapp)
+projectinit() {
+    mkdir assets
+    wget https://raw.github.com/colmjude/Projectus/master/_js/script.js -O assets/script.js
+    wget https://raw.github.com/colmjude/Projectus/master/_naked.html -O index.html
+    compass create
+}
