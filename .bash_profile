@@ -7,3 +7,8 @@ ff(){
 mou(){
     open -a /Applications/Mou.app/ "$1"
 }
+
+# Open files in Chrome browser
+chrome() {
+    open -a "Google Chrome" "$1"
+}
