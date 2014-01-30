@@ -25,3 +25,9 @@ projectinit() {
     wget https://raw.github.com/colmjude/Projectus/master/_naked.html -O index.html
     compass create
 }
+
+# base files for a new page when using grunt-static-handlebars
+newhbrpage() {
+    cp /projects/colmjude.com/src/empty.html ./$1.html
+    cp /projects/colmjude.com/src/empty.json ./$1.json
+}
