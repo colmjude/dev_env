@@ -1,0 +1,6 @@
+[alias]
+	st = status
+	co = checkout
+	cob = checkout -b
+	br = branch
+	a = add
