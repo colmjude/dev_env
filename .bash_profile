@@ -3,6 +3,10 @@ alias l='ls -la'
 alias projects='cd /projects'
 alias editBash='vi ~/.bash_profile'
 
+# Tell ls to be colorful
+export CLICOLOR=1
+export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+
 # Open files or directory in TextMate
 mate() {
     open -a /Applications/TextMate.app/ "$1"
