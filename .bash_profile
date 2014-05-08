@@ -36,3 +36,9 @@ newhbrpage() {
     cp /projects/colmjude.com/src/empty.html ./$1.html
     cp /projects/colmjude.com/src/empty.json ./$1.json
 }
+
+# Google it
+function @google {
+    open "https://google.com/search?q=$*"
+}
+
