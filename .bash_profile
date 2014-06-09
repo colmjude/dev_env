@@ -46,3 +46,6 @@ function @google {
     open "https://google.com/search?q=$*"
 }
 
+# load in git shortcut file
+source ~/git-shortcuts.sh
+
