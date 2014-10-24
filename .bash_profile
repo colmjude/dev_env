@@ -46,6 +46,12 @@ function @google {
     open "https://google.com/search?q=$*"
 }
 
+# mkdir, cd in one command
+mkcd() {
+    mkdir -p "$*"
+    cd "$*"
+}
+
 # load in git shortcut file
 source ~/git-shortcuts.sh
 
