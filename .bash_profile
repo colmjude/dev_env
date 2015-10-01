@@ -3,6 +3,10 @@ alias l='ls -la'
 alias projects='cd /projects'
 alias editBash='vi ~/.bash_profile'
 
+# history log setting
+HISTFILESIZE=1000000000
+HISTSIZE=1000000
+
 # Tell ls to be colorful
 export CLICOLOR=1
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
